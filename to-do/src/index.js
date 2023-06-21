@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import Buttonplay from './components/buttonplay';
-// import Btn from './components/btn'
+// import Buttonplay from './components/button/buttonplay';
+// import Btn from './components/button/btn'
+// import Datahook from './hooks/datahook';
+import Hdata from './hooks/hdata';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
+  <Hdata/>
   </React.StrictMode>
 );
 
