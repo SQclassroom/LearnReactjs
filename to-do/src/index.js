@@ -1,20 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import Buttonplay from './components/button/buttonplay';
-// import Btn from './components/button/btn'
-// import Datahook from './hooks/datahook';
-// import Hdata from './hooks/hdata';
-// import Form from './components/form/form';
-import Form1 from './components/form/form1';
-// import Dataeffect from './hooks/useEffect/dataeffect';
+// import Buttonplay from './components/buttonplay';
+// import Btn from './components/btn'
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>  
-      <Form1/>
+  <React.StrictMode>
+    
   </React.StrictMode>
 );
 
