@@ -4,7 +4,6 @@ import './index.css';
 // import Buttonplay from './components/buttonplay';
 // import Btn from './components/btn'
 // import App from './App'
-import './index.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

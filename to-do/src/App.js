@@ -1,6 +1,4 @@
 import React from 'react';
-// import Newexpance from './components/Expances/Newexpance';
-import Expanceitem from './components/Expances/Expanceitem';
 import Expences from './components/Expances/Expences';
 
 
@@ -37,6 +35,7 @@ let expances = [
   return (
     <>
       <div>
+        <h1 className='text-start text-2xl text-black font-bold'>Let's Add Expance</h1>
         <Expences item={expances}/>
       </div>
     </>
