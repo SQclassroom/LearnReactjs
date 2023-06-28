@@ -1,11 +1,7 @@
 import React from 'react';
-// import Newexpance from './components/Expances/Newexpance';
-import Expanceitem from './components/Expances/Expanceitem';
 import Expences from './components/Expances/Expences';
 
-
 const App = () => {
-
 
 let expances = [
   {
@@ -32,7 +28,7 @@ let expances = [
     amount:700,
     date:new Date(2023, 5, 15)
   }
-]
+];
 
   return (
     <>
