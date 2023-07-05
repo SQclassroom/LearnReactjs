@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react';
+import { useEffect, useState } from 'react';
 
 const Dataeffect = () => {
 
@@ -13,9 +14,6 @@ const [clicked,setClicked] = useState();
 useEffect(() => {
   alert('WE ARE USE EFFECT');
 });
-
-
-
 
   return (
     <div>
