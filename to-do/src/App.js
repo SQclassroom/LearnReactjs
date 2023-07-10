@@ -1,9 +1,7 @@
 import React from 'react';
 import Expences from './components/Expances/Expences';
 
-
 const App = () => {
-
 
 let expances = [
   {
@@ -30,7 +28,7 @@ let expances = [
     amount:700,
     date:new Date(2023, 5, 15)
   }
-]
+];
 
   return (
     <>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Expanceform from './Expanceform';
+import Expanceform from '../form/Expanceform';
 
 const Newexpance = () => {
   return (
