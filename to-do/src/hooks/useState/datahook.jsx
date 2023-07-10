@@ -16,8 +16,8 @@ const Datahook = () => {
   return (
     <div>
       <h1>{count}</h1>
-      <button onClick={handleClickadd}>+</button>
-      <button onClick={handleClickremove}>-</button>
+      <button onClick={handleClickadd}>Increment</button>
+      <button onClick={handleClickremove}>Decrement</button>
     </div>
   )
 }

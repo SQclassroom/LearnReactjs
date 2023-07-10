@@ -4,13 +4,16 @@ import './index.css';
 // import Buttonplay from './components/buttonplay';
 // import Btn from './components/btn'
 // import App from './App'
-import App from './App';
+// import App from './App';
+// import Dataeffect from './hooks/useEffect/dataeffect';
+import Timer from './hooks/useEffect/Timer';
+// import Useffect from './hooks/useEffect/useeffect';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>  
-      <App/>
+      <Timer/>
   </React.StrictMode>
 );
 

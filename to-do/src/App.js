@@ -1,5 +1,7 @@
 import React from 'react';
-import Expences from './components/Expances/Expences';
+// import Expences from './components/Expances/Expences';
+// import Pure from './pure/Pure';
+import Impure from './pure/Impure';
 
 const App = () => {
 
@@ -33,8 +35,10 @@ let expances = [
   return (
     <>
       <div>
-        <h1 className='text-start text-2xl text-black font-bold'>Let's Add Expance</h1>
-        <Expences item={expances}/>
+        <Impure/>
+        <Impure/>
+        <Impure/>
+        <Impure/>
       </div>
     </>
   )

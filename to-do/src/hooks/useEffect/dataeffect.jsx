@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react';
+import { useEffect, useState } from 'react';
 
 const Dataeffect = () => {
 
@@ -6,16 +7,11 @@ const Dataeffect = () => {
 // code to run after render or update
   },[])
 
-
-
 const [clicked,setClicked] = useState();
 
 useEffect(() => {
   alert('WE ARE USE EFFECT');
 });
-
-
-
 
   return (
     <div>
