@@ -1,6 +1,8 @@
 import React from 'react';
 // import Expences from './components/Expances/Expences';
 import Pure from './purecomponent/pure';
+import Impure from './impure';
+
 const App = () => {
 
 let expances = [
@@ -36,6 +38,10 @@ let expances = [
         <Pure/>
         <Pure/>
         <Pure/>
+        <Impure/>
+        <Impure/>
+        <Impure/>
+        <Impure/>
       </div>
     </>
   )
